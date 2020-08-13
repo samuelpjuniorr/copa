@@ -1,0 +1,16 @@
+C:\workspace\copa\Copa\CopaApi.Services\bin\Debug\netcoreapp3.1\CopaApi.Services.deps.json
+C:\workspace\copa\Copa\CopaApi.Services\bin\Debug\netcoreapp3.1\CopaApi.Services.dll
+C:\workspace\copa\Copa\CopaApi.Services\bin\Debug\netcoreapp3.1\CopaApi.Services.pdb
+C:\workspace\copa\Copa\CopaApi.Services\bin\Debug\netcoreapp3.1\CopaApi.CrossCutting.IoC.dll
+C:\workspace\copa\Copa\CopaApi.Services\bin\Debug\netcoreapp3.1\CopaApi.Domain.dll
+C:\workspace\copa\Copa\CopaApi.Services\bin\Debug\netcoreapp3.1\CopaApi.Infra.dll
+C:\workspace\copa\Copa\CopaApi.Services\bin\Debug\netcoreapp3.1\CopaApi.CrossCutting.IoC.pdb
+C:\workspace\copa\Copa\CopaApi.Services\bin\Debug\netcoreapp3.1\CopaApi.Domain.pdb
+C:\workspace\copa\Copa\CopaApi.Services\bin\Debug\netcoreapp3.1\CopaApi.Infra.pdb
+C:\workspace\copa\Copa\CopaApi.Services\obj\Debug\netcoreapp3.1\CopaApi.Services.csprojAssemblyReference.cache
+C:\workspace\copa\Copa\CopaApi.Services\obj\Debug\netcoreapp3.1\CopaApi.Services.AssemblyInfoInputs.cache
+C:\workspace\copa\Copa\CopaApi.Services\obj\Debug\netcoreapp3.1\CopaApi.Services.AssemblyInfo.cs
+C:\workspace\copa\Copa\CopaApi.Services\obj\Debug\netcoreapp3.1\CopaApi.Services.csproj.CopyComplete
+C:\workspace\copa\Copa\CopaApi.Services\obj\Debug\netcoreapp3.1\CopaApi.Services.dll
+C:\workspace\copa\Copa\CopaApi.Services\obj\Debug\netcoreapp3.1\CopaApi.Services.pdb
+C:\workspace\copa\Copa\CopaApi.Services\obj\Debug\netcoreapp3.1\CopaApi.Services.csproj.CoreCompileInputs.cache
