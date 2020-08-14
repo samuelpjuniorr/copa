@@ -27,7 +27,8 @@ namespace Copa.Controllers
         {
             try
             {
-
+                if (equipesParticipantes.Count != 8)
+                    throw new Exception("Número inválido de participantes. A copa é composta por 8 equipes.");
 
                 return Ok(_copaService.ObterResultado(equipesParticipantes));
             }
