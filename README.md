@@ -1,4 +1,3 @@
-- Como já foi dito no email, não foi feito o frontend dessa aplicação.
 
 - Para fazer um teste de resgate de equipes do WS:
 
