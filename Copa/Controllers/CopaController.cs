@@ -23,7 +23,7 @@ namespace Copa.Controllers
 
 
         [HttpPost("resultado")]
-        public ActionResult<List<Equipe>> Resultado(List<Equipe> equipesParticipantes)
+        public ActionResult<List<Equipe>> Resultado([FromBody] List<Equipe> equipesParticipantes)
         {
             try
             {
