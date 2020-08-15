@@ -34,7 +34,16 @@ namespace Copa
 
             services.AddDbContext<BDCopaContext>();
             
-            services.AddCors();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: "SistemaCopa",
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:4200",
+                                                          "https://localhost:4200")
+                                      .AllowAnyHeader();
+                                  });
+            });
             services.AddMvc();
             services.AddScoped<BDCopaContext, BDCopaContext>();
 
@@ -58,6 +67,7 @@ namespace Copa
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors("SistemaCopa");
 
             app.UseAuthorization();
 
