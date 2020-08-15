@@ -73,7 +73,7 @@ namespace CopaApi.Domain.Models
             }
         }
 
-        public List<Jogo> JogoFinal
+        public Jogo JogoFinal
         {
             get
             {
@@ -90,7 +90,7 @@ namespace CopaApi.Domain.Models
                         {
                             Jogo jogo = new Jogo
                             {
-                                Nome = "SemiFinal: " + JogosSemifinais[i - 1].Vencedor.Nome.Trim() + " VS " + JogosSemifinais[i].Vencedor.Nome.Trim(),
+                                Nome = "Final: " + JogosSemifinais[i - 1].Vencedor.Nome.Trim() + " VS " + JogosSemifinais[i].Vencedor.Nome.Trim(),
                                 Equipe1 = JogosSemifinais[i - 1].Vencedor,
                                 Equipe2 = JogosSemifinais[i].Vencedor
 
@@ -101,10 +101,10 @@ namespace CopaApi.Domain.Models
                     }
 
 
-                    return listaJogos;
+                    return listaJogos.FirstOrDefault();
                 }
 
-                return new List<Jogo>();
+                return new Jogo();
             }
         }
 
